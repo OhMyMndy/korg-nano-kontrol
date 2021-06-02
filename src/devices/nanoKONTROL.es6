@@ -12,7 +12,7 @@ export default class NanoKONTROL extends Device {
     return "nanoKONTROL";
   }
   static detect(name){
-    return /^nanoKONTROL\s/i.test(name);
+    return /^nanoKONTROL\s*/i.test(name);
   }
 
   constructor(input, name){
